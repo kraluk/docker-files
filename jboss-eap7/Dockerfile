@@ -2,7 +2,7 @@
 FROM jboss/base-jdk:8
 
 # Set the JBOSS_VERSION env variable
-ENV JBOSS_VERSION 7.0.0.Beta
+ENV JBOSS_VERSION 7.0.0
 ENV JBOSS_HOME /opt/jboss/jboss-eap-7.0/
 
 COPY jboss-eap-$JBOSS_VERSION.zip $HOME
